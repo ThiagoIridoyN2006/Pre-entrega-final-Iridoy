@@ -1,0 +1,53 @@
+/*Servicios:*/
+
+.intro {
+	text-align: center;
+	margin-top: 70px;
+	h1 {
+		font-size: 24px;
+		margin-bottom: 10px;
+		color: $color_2;
+	}
+	p {
+		font-size: 18px;
+		color: $color_2;
+		margin-top: 40px;
+	}
+}
+.products {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
+.product {
+	background-color: $background-color_5;
+	padding: 20px;
+	margin: 10px;
+	width: 30%;
+	text-align: center;
+	img {
+		width: 100%;
+		max-width: 300px;
+		height: auto;
+		background-color: $background-color_6;
+		margin-bottom: 15px;
+	}
+	h1 {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+	h2 {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+	h3 {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+	p {
+		font-size: 16px;
+		color: $color_2;
+		margin-bottom: 15px;
+	}
+}

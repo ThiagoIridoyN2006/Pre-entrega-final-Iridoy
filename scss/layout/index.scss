@@ -1,0 +1,49 @@
+//main
+
+main {
+	justify-content: space-between;
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+	background-color: $background-color_1;
+}
+.imagen-central {
+	width: 90%;
+	max-width: 90%;
+	height: auto;
+	margin: 20px auto;
+}
+.text-container {
+	width: 100%;
+	padding: 10px;
+}
+.textos {
+	h1 {
+		margin: 10px 0;
+		text-align: center;
+	}
+	h2 {
+		margin: 10px 0;
+		text-align: center;
+		font-size: 1.5rem;
+	}
+}
+.botones {
+	width: 100%;
+	display: flex;
+	gap: 10px;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+.button {
+	color: $color_1;
+	background-color: $background-color_2;
+	padding: 10px 20px;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	cursor: pointer;
+	text-align: center;
+	&:hover {
+		background-color: $background-color_3;
+	}
+}

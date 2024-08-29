@@ -1,0 +1,40 @@
+/* Header*/
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #4784bd;
+	padding: 10px 20px;
+}
+.links {
+	ul {
+		list-style-type: none;
+		display: flex;
+		margin-right: 700px;
+		padding: 0;
+	}
+	li {
+		margin-right: 25px;
+	}
+	a {
+		text-decoration: none;
+		color: rgb(255, 255, 255);
+		font-weight: bold;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+.imagen-logo {
+	img {
+		width: 150px;
+		height: auto;
+	}
+}
+.imagen-compras {
+	img {
+		width: 90px;
+		height: auto;
+	}
+}

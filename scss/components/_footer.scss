@@ -1,0 +1,29 @@
+/*Footer*/
+
+
+footer {
+	width: 100%;
+	background-color: $background-color_4;
+	color: $color_1;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	flex-wrap: wrap;
+}
+.footer-item {
+	margin: 0 10px;
+	flex: 1;
+	margin-right: 30px;
+	text-align: center;
+	img {
+		width: 100px;
+		height: auto;
+	}
+}
