@@ -1,0 +1,301 @@
+/* Media queries*/
+
+/* Tablets */
+@media (max-width: 768px) {
+    .imagen-logo img {
+        width: 120px; 
+    }
+
+    .imagen-compras img {
+        width: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+    .textos h1 {
+        font-size: 30px;
+    }
+
+    .textos h2 {
+        font-size: 18px;
+    }
+
+    .botones {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+}
+
+/* Celulares */
+
+@media (max-width: 576px) {
+    .imagen-logo img {
+        width: 100px; 
+    }
+
+    .imagen-compras img {
+        width: 60px;
+    }
+    .textos h1 {
+        font-size: 24px;
+    }
+
+    .textos h2 {
+        font-size: 16px;
+    }
+
+    .imagen-central {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .botones {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+
+/* Media Queries */
+
+/* Tablets */
+@media (max-width: 768px) {
+    .product {
+        width: 45%;
+    }
+
+    .intro h1 {
+        font-size: 22px;
+    }
+
+    .intro p {
+        font-size: 16px;
+    }
+
+    .product p {
+        font-size: 14px;
+    }
+
+    .imagen-logo img {
+        width: 120px;
+    }
+
+    .imagen-compras img {
+        width: 70px;
+    }
+
+}
+
+/* Celulares */
+
+@media (max-width: 576px) {
+    .product {
+        width: 100%;
+    }
+
+    .intro h1 {
+        font-size: 20px;
+    }
+
+    .intro p {
+        font-size: 14px;
+    }
+
+    .product p {
+        font-size: 12px;
+    }
+
+    .imagen-logo img {
+        width: 100px;
+    }
+
+    .imagen-compras img {
+        width: 60px;
+    }
+
+}
+
+
+/*media queries*/
+/* Tablets */
+@media (max-width: 768px) {
+
+    .beneficios-text p {
+        font-size: 20px;
+    }
+
+    .beneficios-text li {
+        font-size: 16px;
+    }
+
+    .beneficios h1 {
+        font-size: 24px;
+    }
+
+    section.ingredientes-calidad,
+    section.ropa-mascotas,
+    section.envios-seguros {
+        flex: 1 1 100%;
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+    .beneficios-content {
+        flex-direction: column;
+    }
+}
+
+/* Celulares */
+@media (max-width: 480px) {
+
+    .beneficios-text p {
+        font-size: 18px;
+    }
+
+    .beneficios h1 {
+        font-size: 20px;
+    }
+
+    section.ingredientes-calidad,
+    section.ropa-mascotas,
+    section.envios-seguros {
+        flex: 1 1 100%;
+        margin: 10px 0;
+        padding: 15px;
+        font-size: 16px;
+    }
+    .nueva-seccion {
+        flex-direction: column;
+    }
+}
+
+
+
+
+@media (max-width: 1200px) {
+    .team-member {
+        flex: 1 1 30%;
+        max-width: 30%;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .text-section h1 {
+        font-size: 1.75rem;
+        margin-top: 40px;
+    }
+
+    .text-section p {
+        font-size: 0.95rem;
+        margin-right: 20px;
+    }
+
+    .team-member {
+        flex: 1 1 45%;
+        max-width: 45%;
+    }
+
+    .team-container {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 768px) {
+    .text-section h1 {
+        font-size: 1.5rem;
+    }
+
+    .team-member {
+        flex: 1 1 80%;
+        max-width: 80%;
+    }
+
+    .team-container {
+        justify-content: center;
+    }
+
+    .button-container {
+        margin-top: 50px;
+    }
+
+    .button {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .team-member {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .text-section h1 {
+        font-size: 1.25rem;
+        margin-top: 20px;
+    }
+
+    .text-section p {
+        font-size: 0.9rem;
+        margin-right: 10px;
+    }
+
+    .button-container {
+        margin-top: 30px;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .button {
+        width: 100%;
+        padding: 10px;
+        font-size: 1rem;
+    }
+}
+
+
+
+/* Media queries footer */
+
+/* Tablets */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-item {
+        margin: 10px 0; 
+    }
+}
+
+/* Celulares */
+@media (max-width: 576px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-item {
+        margin: 10px 0;
+    } 
+
+    .footer-item img {
+        width: 80px;
+    }
+}
+
