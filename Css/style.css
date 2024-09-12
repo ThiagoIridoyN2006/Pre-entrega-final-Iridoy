@@ -10,7 +10,7 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  background-color: #4784bd;
+  background-color: rgb(225, 162, 106);
   padding: 10px 20px;
 }
 
@@ -54,7 +54,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .footer-container {
@@ -80,16 +80,16 @@ footer {
 main {
   justify-content: space-between;
   width: 100%;
-  padding: 20px;
+  padding: 0px;
   text-align: center;
-  background-color: rgb(122, 177, 97);
+  background-color: rgb(242, 240, 238);
 }
 
 .imagen-central {
-  width: 90%;
-  max-width: 90%;
+  width: 100%;
+  max-width: 100%;
   height: auto;
-  margin: 20px auto;
+  margin: 0px auto;
 }
 
 .text-container {
@@ -100,6 +100,7 @@ main {
 .textos h1 {
   margin: 10px 0;
   text-align: center;
+  padding: 40px;
 }
 .textos h2 {
   margin: 10px 0;
@@ -110,16 +111,18 @@ main {
 .botones {
   width: 100%;
   display: flex;
+  padding: 50px;
   gap: 10px;
+  text-decoration: none;
   justify-content: space-around;
   margin-top: 20px;
 }
 
 .button {
   color: white;
-  background-color: rgb(39, 144, 241);
+  background-color: rgb(151, 83, 61);
   padding: 10px 20px;
-  border: 1px solid #000000;
+  text-decoration: none;
   border-radius: 5px;
   cursor: pointer;
   text-align: center;
@@ -131,17 +134,18 @@ main {
 /*Servicios:*/
 .intro {
   text-align: center;
-  margin-top: 70px;
+  margin-top: 0px;
 }
 .intro h1 {
-  font-size: 24px;
+  font-size: 34px;
   margin-bottom: 10px;
+  padding: 70px;
   color: #000000;
 }
 .intro p {
-  font-size: 18px;
+  font-size: 20px;
   color: #000000;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .products {
@@ -152,7 +156,7 @@ main {
 }
 
 .product {
-  background-color: #86b8cc;
+  background-color: rgb(235, 235, 235);
   padding: 20px;
   margin: 10px;
   width: 30%;
@@ -186,11 +190,13 @@ main {
 /*Beneficios:*/
 .beneficios {
   text-align: center;
-  margin: 20px auto;
+  padding: 70px;
+  margin: 0px auto;
   max-width: 1200px;
 }
 .beneficios h1 {
-  font-size: 30px;
+  font-size: 32px;
+  font-weight: 700;
   margin-bottom: 20px;
 }
 
@@ -199,6 +205,7 @@ main {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  padding-top: 50px;
 }
 
 .beneficios-text {
@@ -208,6 +215,7 @@ main {
 }
 .beneficios-text p {
   font-size: 24px;
+  font-weight: 550;
   margin-bottom: 20px;
 }
 .beneficios-text ul {
@@ -234,7 +242,7 @@ section.ropa-mascotas,
 section.envios-seguros {
   background-color: white;
   padding: 20px;
-  margin: 10px;
+  margin: 30px;
   text-align: center;
   flex: 1 1 30%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -244,13 +252,18 @@ section.envios-seguros {
   flex-direction: column;
   justify-content: center;
 }
+section.ingredientes-calidad p,
+section.ropa-mascotas p,
+section.envios-seguros p {
+  font-size: 15px;
+}
 
 .nueva-seccion {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 30px;
+  padding-bottom: 70px;
 }
 
 .container {
@@ -259,16 +272,16 @@ section.envios-seguros {
   align-items: flex-start;
   justify-content: center;
   width: 100%;
-  background-color: white;
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  margin-top: 20px;
+  margin-bottom: 160px;
 }
 
 .img-section {
   flex: 1;
-  padding: 10px;
+  padding: 20px;
+  padding-top: 50px;
 }
 .img-section img {
   width: 100%;
@@ -293,32 +306,12 @@ section.envios-seguros {
   margin-right: 40px;
 }
 
-.button-container {
-  margin-top: 100px;
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
-.button {
-  color: white;
-  background-color: rgb(39, 144, 241);
-  padding: 10px 20px;
-  border: 2px solid #333;
-  border-radius: 5px;
-  cursor: pointer;
-  text-decoration: none;
-  text-align: center;
-}
-.button:hover {
-  background-color: #857575;
-}
-
 .team-section {
   width: 80%;
   margin: 40px auto;
   background-color: #e0e0e0;
   padding: 20px;
+  padding-top: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -363,10 +356,11 @@ section.envios-seguros {
 
 .galeria-container {
   text-align: center;
-  margin-top: 20px;
+  padding-top: 70px;
 }
 .galeria-container h1 {
   font-size: 2rem;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 .galeria-container p {
@@ -380,6 +374,7 @@ section.envios-seguros {
   justify-content: space-around;
   gap: 20px;
   margin: 20px 0;
+  padding: 40px;
 }
 
 .galeria-item {
@@ -396,6 +391,7 @@ section.envios-seguros {
 .carousel-inner img {
   height: 650px;
   object-fit: cover;
+  padding: 20px;
 }
 
 /* Media queries*/
@@ -516,6 +512,9 @@ section.envios-seguros {
   .beneficios-content {
     flex-direction: column;
   }
+  .beneficios-img img {
+    max-width: 80%;
+  }
 }
 /* Celulares */
 @media (max-width: 480px) {
@@ -535,6 +534,9 @@ section.envios-seguros {
   }
   .nueva-seccion {
     flex-direction: column;
+  }
+  .beneficios-img img {
+    max-width: 60%;
   }
 }
 @media (max-width: 1200px) {

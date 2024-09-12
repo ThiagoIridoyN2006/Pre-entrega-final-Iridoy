@@ -2,10 +2,12 @@
 
 .beneficios {
 	text-align: center;
-	margin: 20px auto;
+	padding: 70px;
+	margin: 0px auto;
 	max-width: 1200px;
 	h1 {
-		font-size: 30px;
+		font-size: 32px;
+		font-weight: 700;
 		margin-bottom: 20px;
 	}
 }
@@ -14,6 +16,7 @@
 	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
+	padding-top: 50px;
 }
 .beneficios-text {
 	flex: 1;
@@ -21,6 +24,7 @@
 	text-align: left;
 	p {
 		font-size: 24px;
+		font-weight: 550;
 		margin-bottom: 20px;
 	}
 	ul {
@@ -47,7 +51,7 @@ section.ropa-mascotas,
 section.envios-seguros {
     background-color: $color_1;
     padding: 20px;
-    margin: 10px;
+    margin: 30px;
     text-align: center;
     flex: 1 1 30%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -56,11 +60,14 @@ section.envios-seguros {
     display: flex;
     flex-direction: column;
     justify-content: center;
+	p {
+		font-size: 15px;
+	}
 }
 .nueva-seccion{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 30px;
+	padding-bottom: 70px;
 }

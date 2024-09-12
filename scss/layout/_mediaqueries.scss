@@ -153,6 +153,10 @@
     .beneficios-content {
         flex-direction: column;
     }
+
+    .beneficios-img img {
+        max-width: 80%;
+    }
 }
 
 /* Celulares */
@@ -176,6 +180,10 @@
     }
     .nueva-seccion {
         flex-direction: column;
+    }
+    
+    .beneficios-img img {
+        max-width: 60%;
     }
 }
 

@@ -1,18 +1,20 @@
+
+
 .container {
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
 	justify-content: center;
 	width: 100%;
-	background-color: $color_1;
 	padding: 20px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 	border-radius: 8px;
-	margin-top: 20px;
+	margin-bottom: 160px;
 }
 .img-section {
 	flex: 1;
-	padding: 10px;
+	padding: 20px;
+	padding-top: 50px;
 	img {
 		width: 100%;
 		height: auto;
@@ -35,30 +37,13 @@
 		margin-right: 40px;
 	}
 }
-.button-container {
-	margin-top: 100px;
-	display: flex;
-	gap: 10px;
-	justify-content: center;
-}
-.button {
-	color: $color_1;
-	background-color: $background-color_2;
-	padding: 10px 20px;
-	border: 2px solid #333;
-	border-radius: 5px;
-	cursor: pointer;
-	text-decoration: none;
-	text-align: center;
-	&:hover {
-		background-color: $background-color_3;
-	}
-}
+
 .team-section {
 	width: 80%;
 	margin: 40px auto;
 	background-color: $background-color_7;
 	padding: 20px;
+	padding-top: 20px;
 	border-radius: 8px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
